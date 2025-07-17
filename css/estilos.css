@@ -1,9 +1,60 @@
 body{
-	background: #c2328e;
+	background: #e8b0c5;
 	margin: 0;
 }
 
-header, footer{
-	background: linear-gradient(bottom, #c2328e, #f598d4);
-	padding: 0em;
+header footer{
+	background: linear-gradient(bottom #ea9bb5, #e8b0d9);
+	padding: 0.5em;
+}
+nav{
+	width:100%;
+	height: 50px;
+	background: #e437a0;
+	margin: auto;
+}
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	position: relative;
+}
+ nav ul li a{
+ 	display: block;
+ 	padding: 15px 20px;
+ 	color: #FAFA34;
+ 	text-decoration: none;
+ }
+ nav ul li a:hover{
+ 	background: #BAB555;
+ }
+ nav ul li ul{
+ 	display: none;
+ 	position: absolute;
+ 	top: 100%;
+ 	left: 0;
+ 	background: #4444EB;
+ 	padding: 0;
+ 	list-style-type: none;
+ }
+article{
+	width: 33%;
+	float: left;
+	margin: auto;
+}
+
+fieldset{
+	border:4px dashed #000000;
+	width: 400px;
+	margin: auto;
+}
+
+.etiqueta{
+	width: 150px;
+	text-align: left;
+	float: left;
+	margin: auto;
 }
